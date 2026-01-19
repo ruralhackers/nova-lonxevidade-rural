@@ -324,8 +324,8 @@ function App() {
               <img
                 src="/firma_600x135-gal.jpg"
                 alt="Entidade Seleccionada 2025 - Convocatorias de Proxectos Sociais Fundación la Caixa Galicia"
-                className="h-auto"
-                style={{ width: '600px', maxWidth: '100%' }}
+                className="h-auto w-full max-w-none"
+                style={{ width: '1200px', maxWidth: '100%' }}
               />
             </div>
             <div className="flex flex-col items-center md:items-end justify-center space-y-4">
@@ -333,7 +333,7 @@ function App() {
                 <img
                   src="/logo_rural_hackers.png"
                   alt="Rural Hackers"
-                  className="h-16 w-auto hover:opacity-80 transition"
+                  className="h-20 w-auto hover:opacity-80 transition"
                   style={{ filter: 'brightness(0) invert(1)' }}
                 />
               </a>

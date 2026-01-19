@@ -337,7 +337,7 @@ function App() {
                   style={{ filter: 'brightness(0) invert(1)' }}
                 />
               </a>
-              <p className="text-white text-sm text-center md:text-right">
+              <p className="text-white text-lg md:text-xl leading-snug text-center md:text-right">
                 © 2026 Nova Lonxevidade Rural<br />
                 <a href="https://www.ruralhackers.com" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline" style={{ color: '#E67747' }}>Un proxecto de Rural Hackers</a>
               </p>

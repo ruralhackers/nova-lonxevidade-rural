@@ -159,7 +159,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">CanTech</h3>
-                  <p className="text-base text-gray-700 mb-2">Adestramiento canino</p>
+                  <p className="text-base text-gray-700 mb-2">Adestramiento canino e intelixencia emocional</p>
                   <p className="text-sm font-semibold" style={{ color: '#E67747' }}>De febreiro a xuño • 2 hora mensuais • Casa do Pobo de Anceu</p>
                 </div>
               </div>

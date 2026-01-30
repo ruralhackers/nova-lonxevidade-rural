@@ -159,7 +159,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">CanTech</h3>
-                  <p className="text-base text-gray-700 mb-2">Adestramiento canino con <a href="https://adaintervenciones.weebly.com/iquestqueacute-es-ada.html" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline" style={{ color: '#E67747' }}>Ada Intervenciones</a></p>
+                  <p className="text-base text-gray-700 mb-2">Adestramiento canino</p>
                   <p className="text-sm font-semibold" style={{ color: '#E67747' }}>De febreiro a xuño • 2 hora mensuais • Casa do Pobo de Anceu</p>
                 </div>
               </div>

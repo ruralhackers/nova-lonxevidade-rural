@@ -266,7 +266,7 @@ function App() {
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">Festival De Vella a Bella</h3>
                 <p className="text-base text-gray-900 mb-2">4 dias de encontro para aprender de novas formas de lonxevidade</p>
-                <p className="text-sm font-semibold" style={{ color: '#E67747' }}>do 3 a 8 de abril - Anceu Coliving</p>
+                <p className="text-sm font-semibold" style={{ color: '#E67747' }}>do 30 de setembro ao 5 de outubro - Anceu Coliving</p>
               </div>
             </div>
             <a

@@ -265,19 +265,21 @@ function App() {
               </div>
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">Festival De Vella a Bella</h3>
-                <p className="text-base text-gray-900 mb-2">4 dias de encontro para aprender de novas formas de lonxevidade</p>
-                <p className="text-sm font-semibold" style={{ color: '#E67747' }}>do 30 de setembro ao 5 de outubro - Anceu Coliving</p>
+                <p className="text-base text-gray-900 mb-2">Encontro de nova lonxevidade. 6 días para conectar a 12 persoas do ecosistema de novas formas de lonxevidade, cohesión e redes de coidados.</p>
+                <p className="text-sm font-semibold" style={{ color: '#E67747' }}>30 de setembro – 5 de outubro de 2026 · Anceu Coliving · Ponte Caldelas</p>
               </div>
             </div>
-            <a
-              href="#"
-              className="inline-flex items-center justify-center px-4 py-2 text-white text-sm font-semibold rounded transition"
-              style={{ backgroundColor: '#6B8E5B' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#5A7A4A'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#6B8E5B'}
-            >
-              Pronto máis información
-            </a>
+            <div className="space-y-4 mb-6 text-gray-800">
+              <p className="font-semibold text-gray-900">Programa do encontro</p>
+              <ul className="space-y-2 text-sm leading-relaxed">
+                <li><strong>30 set (luns)</strong> — Chegada · Fogueira creativa de benvida</li>
+                <li><strong>1 out (martes)</strong> — Pegadas do Recordo · Camiños de Arte de Anceu (memoria viva, FemTech, recitais)</li>
+                <li><strong>2 out (mércores)</strong> — Visita ao territorio · Rede de proxectos rurais (Muimenta, Termas de Prexigueiro, Casa Colectiva de Carballeda de Avia)</li>
+                <li><strong>3 out (xoves)</strong> — Paseo creativo · Transmisión de saberes · Concierto de peche na Casa do Pobo (Caamaño e Ameixeiras, Coro de Voces Fornelesas, pandereteiras)</li>
+                <li><strong>4 out (venres)</strong> — Espazo de Tía Nie · Gastronomía e vermú creativo (cogomelos, taller culinario, música)</li>
+                <li><strong>5 out (sábado)</strong> — Peche · Compromisos de rede · Saída</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

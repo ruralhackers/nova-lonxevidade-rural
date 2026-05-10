@@ -231,7 +231,7 @@ export default function Home() {
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">Festival De Vella a Bella</h3>
                 <p className="text-base text-gray-900 mb-2">Encontro de nova lonxevidade. 6 días para conectar a 12 persoas do ecosistema de novas formas de lonxevidade, cohesión e redes de coidados.</p>
-                <p className="text-sm font-semibold mb-4" style={{ color: '#E67747' }}>30 de setembro – 5 de outubro de 2026 · Anceu Coliving · Ponte Caldelas</p>
+                <p className="text-sm font-semibold mb-4" style={{ color: '#E67747' }}>2 – 7 de outubro de 2026 · Anceu Coliving · Ponte Caldelas</p>
                 <Link
                   to="/festival"
                   className="inline-flex items-center justify-center px-5 py-2.5 text-white text-sm font-semibold rounded transition"

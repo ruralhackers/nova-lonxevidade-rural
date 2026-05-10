@@ -19,8 +19,19 @@ export default function Festival() {
               30 set – 5 out 2026
             </span>
             <span className="flex items-center gap-2 text-gray-800 font-semibold">
-              <MapPin className="h-5 w-5" style={{ color: '#E67747' }} />
-              Anceu Coliving · Ponte Caldelas
+              <MapPin className="h-5 w-5 flex-shrink-0" style={{ color: '#E67747' }} />
+              <span>
+                <a
+                  href="https://anceu.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                  style={{ color: '#E67747' }}
+                >
+                  Anceu Coliving
+                </a>
+                {' · '}Ponte Caldelas
+              </span>
             </span>
             <span className="flex items-center gap-2 text-gray-800 font-semibold">
               <Users className="h-5 w-5" style={{ color: '#E67747' }} />
@@ -38,7 +49,11 @@ export default function Festival() {
           </h2>
           <div className="rounded-2xl p-8 md:p-10 shadow-lg" style={{ backgroundColor: '#FFFCF7', border: '2px solid #E5DDD0' }}>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Imaxina un lugar onde convives seis días con xente que, como ti, traballa por cambiar a historia do envellecemento: menos soledad, máis comunidade, máis dereito a seguir crecendo. <strong>Anceu Coliving</strong> é ese lugar — un espazo de <a href="https://www.ruralhackers.com" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline" style={{ color: '#E67747' }}>Rural Hackers</a> nunha aldea de Galicia onde a vida cotiá, o territorio e as conversas forman parte do programa.
+              Imaxina un lugar onde convives seis días con xente que, como ti, traballa por cambiar a historia do envellecemento: menos soledad, máis comunidade, máis dereito a seguir crecendo.{' '}
+              <a href="https://anceu.com/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline" style={{ color: '#E67747' }}>
+                Anceu Coliving
+              </a>{' '}
+              é ese lugar — un espazo de <a href="https://www.ruralhackers.com" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline" style={{ color: '#E67747' }}>Rural Hackers</a> nunha aldea de Galicia onde a vida cotiá, o territorio e as conversas forman parte do programa.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Non venimos a "asistir a ponencias". Venimos a coñecernos, a compartir o que funciona, a celebrar e a saír con amizades e alianzas reais. 🔥
@@ -171,12 +186,13 @@ export default function Festival() {
               href="https://devellabella.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center max-w-xs hover:opacity-95 transition"
+              className="isolate inline-flex items-center justify-center max-w-xs rounded-lg outline-none transition focus-visible:ring-2 focus-visible:ring-[#E67747] focus-visible:ring-offset-2 focus-visible:ring-offset-[#3D4A38]"
+              style={{ backgroundColor: '#3D4A38', WebkitTapHighlightColor: 'transparent' }}
             >
               <img
                 src={devellaAbellaLogo}
                 alt="De Vella a Bella"
-                className="h-24 md:h-28 w-auto max-w-[280px] object-contain mix-blend-multiply"
+                className="pointer-events-none h-24 md:h-28 w-auto max-w-[280px] object-contain mix-blend-multiply"
               />
             </a>
             <div className="hidden md:block w-px self-stretch min-h-[100px] bg-white/25" aria-hidden />

@@ -87,28 +87,75 @@ export default function Festival() {
             Os seis días — que imos vivir
           </h2>
           <p className="text-center text-gray-600 mb-12">
-            Traballo, paseos, música, memoria e festa. Cada día ten o seu sabor.
+            Cada xornada articúlase arredor dun bloque temático, ademais das actividades concretas.
           </p>
           <div className="space-y-6">
-            {[
-              { day: '30 set (mércores)', emoji: '🔥', title: 'Chegada · Fogueira creativa', desc: 'Primeiro contacto en Anceu. A noite: fogueira, presentacións, música e as primeiras conversas arredor do lume.' },
-              { day: '1 out (xoves)', emoji: '🎤', title: 'Pegadas do Recordo · Camiños de Arte', desc: 'Bloque temático: deporte e corpo — con disciplinas como marcha nórdica, percusión corporal e camiñatas de arte. Memoria viva coa xente da aldea, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.' },
-              { day: '2 out (venres)', emoji: '🚐', title: 'Visita ao territorio', desc: 'Saída a Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona.' },
-              { day: '3 out (sábado)', emoji: '🎵', title: 'Paseo creativo · Transmisión de saberes · Concierto', desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.' },
-              { day: '4 out (domingo)', emoji: '🍄', title: 'Espazo de Tía Nie · Gastronomía e vermú', desc: 'Cogomelos no monte con guía, taller de cociña colectiva e espazo de vermú creativo arredor do teatro e da poesía.' },
-              { day: '5 out (luns)', emoji: '🌿', title: 'Peche · Compromisos de rede · Saída', desc: 'Mañá de peche: aprendizaxes, oportunidades de colaboración e compromisos para seguir en contacto. Despedida e volta.' },
-            ].map((item) => (
+            {(
+              [
+                {
+                  day: '30 set (mércores)',
+                  emoji: '🔥',
+                  bloque: 'Benvida',
+                  title: 'Chegada · Fogueira creativa',
+                  desc: 'Primeiro contacto en Anceu. A noite: fogueira, presentacións, música e as primeiras conversas arredor do lume.',
+                },
+                {
+                  day: '1 out (xoves)',
+                  emoji: '🎤',
+                  bloque: 'Deporte e corpo',
+                  title: 'Pegadas do Recordo · Camiños de Arte',
+                  desc: 'Marcha nórdica, percusión corporal e camiñatas de arte. Memoria viva coa xente da aldea, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.',
+                },
+                {
+                  day: '2 out (venres)',
+                  emoji: '🚐',
+                  bloque: 'Redes e coidados',
+                  title: 'Visita ao territorio',
+                  desc: 'Saída centrada en como se tecen redes de apoio e coidados no rural: Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona.',
+                },
+                {
+                  day: '3 out (sábado)',
+                  emoji: '🎵',
+                  bloque: 'Mente activa e saudable',
+                  title: 'Paseo creativo · Transmisión de saberes · Concierto',
+                  desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.',
+                },
+                {
+                  day: '4 out (domingo)',
+                  emoji: '🍄',
+                  bloque: 'Nutrición consciente',
+                  title: 'Espazo de Tía Nie · Gastronomía e vermú',
+                  desc: 'Cogomelos no monte con guía, taller de cociña colectiva e espazo de vermú creativo arredor do teatro e da poesía — ligado a hábitos de alimentación conscientes e pracer compartido.',
+                },
+                {
+                  day: '5 out (luns)',
+                  emoji: '🌿',
+                  bloque: 'Peche e rede',
+                  title: 'Peche · Compromisos de rede · Saída',
+                  desc: 'Mañá de peche: aprendizaxes, oportunidades de colaboración e compromisos para seguir en contacto. Despedida e volta.',
+                },
+              ] as const
+            ).map((item) => (
               <div
                 key={item.day}
-                className="rounded-2xl p-6 flex flex-col sm:flex-row sm:items-start gap-4"
+                className="rounded-2xl overflow-hidden flex flex-col sm:flex-row"
                 style={{ backgroundColor: '#FFFCF7', border: '2px solid #E67747' }}
               >
-                <div className="flex-shrink-0 flex items-center gap-3">
+                <div
+                  className="sm:w-44 flex-shrink-0 px-5 py-5 flex flex-row sm:flex-col sm:items-start items-center gap-3 sm:gap-2"
+                  style={{ backgroundColor: '#EBF0E4' }}
+                >
                   <span className="text-3xl">{item.emoji}</span>
-                  <span className="font-bold text-gray-900">{item.day}</span>
+                  <span className="font-bold text-gray-900 text-sm sm:text-base leading-tight">{item.day}</span>
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1">{item.title}</h3>
+                <div className="flex-1 p-5 sm:p-6">
+                  <div
+                    className="inline-block px-3 py-1 rounded-full text-sm font-bold mb-3"
+                    style={{ backgroundColor: '#FFD4B8', color: '#3D4A38' }}
+                  >
+                    Bloque: {item.bloque}
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{item.desc}</p>
                 </div>
               </div>

@@ -92,10 +92,10 @@ export default function Festival() {
           <div className="space-y-6">
             {[
               { day: '30 set (mércores)', emoji: '🔥', title: 'Chegada · Fogueira creativa', desc: 'Primeiro contacto en Anceu. A noite: fogueira, presentacións, música e as primeiras conversas arredor do lume.' },
-              { day: '1 out (xoves)', emoji: '🎤', title: 'Pegadas do Recordo · Camiños de Arte', desc: 'Bloque temático: deporte e corpo — con disciplinas como marcha nórdica, percusión corporal e camiñatas de arte. Memoria viva coa xente da aldea, gravacións con FemTech, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.' },
-              { day: '2 out (venres)', emoji: '🚐', title: 'Visita ao territorio', desc: 'Saída a Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona de Ourense (ou dunha adega próxima da comarca).' },
+              { day: '1 out (xoves)', emoji: '🎤', title: 'Pegadas do Recordo · Camiños de Arte', desc: 'Bloque temático: deporte e corpo — con disciplinas como marcha nórdica, percusión corporal e camiñatas de arte. Memoria viva coa xente da aldea, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.' },
+              { day: '2 out (venres)', emoji: '🚐', title: 'Visita ao territorio', desc: 'Saída a Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona.' },
               { day: '3 out (sábado)', emoji: '🎵', title: 'Paseo creativo · Transmisión de saberes · Concierto', desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.' },
-              { day: '4 out (domingo)', emoji: '🍄', title: 'Espazo de Tía Nie · Gastronomía e vermú', desc: 'Cogomelos no monte con guía, taller de cociña colectiva e vermú creativo con música — celebración do tempo compartido.' },
+              { day: '4 out (domingo)', emoji: '🍄', title: 'Espazo de Tía Nie · Gastronomía e vermú', desc: 'Cogomelos no monte con guía, taller de cociña colectiva e espazo de vermú creativo arredor do teatro e da poesía.' },
               { day: '5 out (luns)', emoji: '🌿', title: 'Peche · Compromisos de rede · Saída', desc: 'Mañá de peche: aprendizaxes, oportunidades de colaboración e compromisos para seguir en contacto. Despedida e volta.' },
             ].map((item) => (
               <div

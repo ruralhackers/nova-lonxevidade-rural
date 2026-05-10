@@ -86,7 +86,7 @@ export default function Festival() {
             Os seis días — que imos vivir
           </h2>
           <p className="text-center text-gray-600 mb-12">
-            Cada xornada articúlase arredor dun bloque temático, ademais das actividades concretas.
+            Cada xornada combina un eixo temático coas actividades concretas.
           </p>
           <div className="space-y-6">
             {(
@@ -94,42 +94,42 @@ export default function Festival() {
                 {
                   day: '30 set (mércores)',
                   emoji: '🔥',
-                  bloque: 'Benvida',
+                  tema: 'Benvida',
                   title: 'Chegada · Fogueira creativa',
                   desc: 'Primeiro contacto en Anceu. A noite: fogueira, presentacións, música e as primeiras conversas arredor do lume.',
                 },
                 {
                   day: '1 out (xoves)',
                   emoji: '🎤',
-                  bloque: 'Deporte e corpo',
+                  tema: 'Deporte e corpo',
                   title: 'Pegadas do Recordo · Camiños de Arte',
                   desc: 'Marcha nórdica, percusión corporal e camiñatas de arte. Memoria viva coa xente da aldea, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.',
                 },
                 {
                   day: '2 out (venres)',
                   emoji: '🚐',
-                  bloque: 'Redes e coidados',
+                  tema: 'Redes e coidados',
                   title: 'Visita a Muimenta Viva',
                   desc: 'Saída centrada en como se tecen redes de apoio e coidados no rural: Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona.',
                 },
                 {
                   day: '3 out (sábado)',
                   emoji: '🎵',
-                  bloque: 'Mente activa e saudable',
+                  tema: 'Mente activa e saudable',
                   title: 'Paseo creativo · Transmisión de saberes · Concierto',
                   desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.',
                 },
                 {
                   day: '4 out (domingo)',
                   emoji: '🍄',
-                  bloque: 'Nutrición consciente',
+                  tema: 'Nutrición consciente',
                   title: 'Espazio Tía Ni · Gastronomía e vermú',
                   desc: 'Cogomelos no monte con guía, taller de cociña colectiva e espazo de vermú creativo arredor do teatro e da poesía — ligado a hábitos de alimentación conscientes e pracer compartido.',
                 },
                 {
                   day: '5 out (luns)',
                   emoji: '🌿',
-                  bloque: 'Peche e rede',
+                  tema: 'Peche e rede',
                   title: 'Peche · Compromisos de rede · Saída',
                   desc: 'Mañá de peche: aprendizaxes, oportunidades de colaboración e compromisos para seguir en contacto. Despedida e volta.',
                 },
@@ -148,12 +148,9 @@ export default function Festival() {
                   <span className="font-bold text-gray-900 text-sm sm:text-base leading-tight">{item.day}</span>
                 </div>
                 <div className="flex-1 p-5 sm:p-6">
-                  <div
-                    className="inline-block px-3 py-1 rounded-full text-sm font-bold mb-3"
-                    style={{ backgroundColor: '#FFD4B8', color: '#3D4A38' }}
-                  >
-                    Bloque: {item.bloque}
-                  </div>
+                  <p className="text-sm font-semibold mb-2" style={{ color: '#E67747' }}>
+                    {item.tema}
+                  </p>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{item.desc}</p>
                 </div>

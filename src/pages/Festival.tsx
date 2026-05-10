@@ -1,4 +1,5 @@
 import { Calendar, MapPin, Users } from 'lucide-react';
+import devellaAbellaLogo from '../../logos/devellaabella.jpeg';
 
 export default function Festival() {
   return (
@@ -6,12 +7,11 @@ export default function Festival() {
       {/* Hero */}
       <section className="pt-32 pb-16 px-6 lg:px-12" style={{ backgroundColor: '#FFF5EB' }}>
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-lg font-semibold mb-2" style={{ color: '#E67747' }}>✨ Encontro de nova lonxevidade</p>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             De Vella a Bella Fest
           </h1>
           <p className="text-xl md:text-2xl text-gray-800 mb-8">
-            Seis días para vivir, compartir e tecer redes. Non é un congreso: é un <strong>encounter</strong> con persoas que creen noutra forma de envellecer — activa, conectada e chea de vida.
+            Seis días para vivir, compartir e tecer redes. Non é un congreso: é unha <strong>xuntanza</strong> con persoas que creen noutra forma de envellecer — activa, conectada e chea de vida.
           </p>
           <div className="inline-flex flex-wrap items-center justify-center gap-4 px-6 py-4 rounded-2xl" style={{ backgroundColor: '#FFFCF7', border: '2px solid #E67747' }}>
             <span className="flex items-center gap-2 text-gray-800 font-semibold">
@@ -109,7 +109,7 @@ export default function Festival() {
                   day: '2 out (venres)',
                   emoji: '🚐',
                   bloque: 'Redes e coidados',
-                  title: 'Visita ao territorio',
+                  title: 'Visita a Muimenta Viva',
                   desc: 'Saída centrada en como se tecen redes de apoio e coidados no rural: Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona.',
                 },
                 {
@@ -123,7 +123,7 @@ export default function Festival() {
                   day: '4 out (domingo)',
                   emoji: '🍄',
                   bloque: 'Nutrición consciente',
-                  title: 'Espazo de Tía Nie · Gastronomía e vermú',
+                  title: 'Espazio Tía Ni · Gastronomía e vermú',
                   desc: 'Cogomelos no monte con guía, taller de cociña colectiva e espazo de vermú creativo arredor do teatro e da poesía — ligado a hábitos de alimentación conscientes e pracer compartido.',
                 },
                 {
@@ -172,9 +172,9 @@ export default function Festival() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 lg:gap-24">
             <div className="flex flex-col items-center text-center max-w-xs">
               <img
-                src="/nueva_longevidad_rural(2).png"
+                src={devellaAbellaLogo}
                 alt="De Vella a Bella Fest"
-                className="h-24 md:h-28 w-auto mb-3 drop-shadow-md"
+                className="h-24 md:h-28 w-auto mb-3 drop-shadow-md max-w-[280px] object-contain"
               />
               <span className="text-white font-semibold text-lg">De Vella a Bella Fest</span>
               <span className="text-white/75 text-sm mt-1">Nova Lonxevidade Rural</span>
@@ -193,9 +193,6 @@ export default function Festival() {
               <span className="text-white/75 text-sm mt-1">Anceu Coliving</span>
             </div>
           </div>
-          <p className="text-center text-white/85 mt-12 text-base">
-            12 persoas · Anceu Coliving · Ponte Caldelas · 30 set – 5 out 2026
-          </p>
         </div>
       </footer>
     </div>

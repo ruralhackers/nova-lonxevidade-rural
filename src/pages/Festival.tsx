@@ -17,7 +17,7 @@ export default function Festival() {
           <div className="inline-flex flex-wrap items-center justify-center gap-4 px-6 py-4 rounded-2xl" style={{ backgroundColor: '#FFFCF7', border: '2px solid #E67747' }}>
             <span className="flex items-center gap-2 text-gray-800 font-semibold">
               <Calendar className="h-5 w-5" style={{ color: '#E67747' }} />
-              2 out – 7 out 2026
+              30 set – 5 out 2026
             </span>
             <span className="flex items-center gap-2 text-gray-800 font-semibold">
               <MapPin className="h-5 w-5" style={{ color: '#E67747' }} />
@@ -91,12 +91,12 @@ export default function Festival() {
           </p>
           <div className="space-y-6">
             {[
-              { day: '2 out (venres)', emoji: '🔥', title: 'Chegada · Fogueira creativa', desc: 'Primeiro contacto en Anceu. A noite: fogueira, presentacións, música e as primeiras conversas arredor do lume.' },
-              { day: '3 out (sábado)', emoji: '🎤', title: 'Pegadas do Recordo · Camiños de Arte', desc: 'Memoria viva coa xente da aldea, gravacións con FemTech, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.' },
-              { day: '4 out (domingo)', emoji: '🚐', title: 'Visita ao territorio', desc: 'Saída a Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona de Ourense (ou dunha adega próxima da comarca).' },
-              { day: '5 out (luns)', emoji: '🎵', title: 'Paseo creativo · Transmisión de saberes · Concierto', desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.' },
-              { day: '6 out (martes)', emoji: '🍄', title: 'Espazo de Tía Nie · Gastronomía e vermú', desc: 'Cogomelos no monte con guía, taller de cociña colectiva e vermú creativo con música — celebración do tempo compartido.' },
-              { day: '7 out (mércores)', emoji: '🌿', title: 'Peche · Compromisos de rede · Saída', desc: 'Mañá de peche: aprendizaxes, oportunidades de colaboración e compromisos para seguir en contacto. Despedida e volta.' },
+              { day: '30 set (mércores)', emoji: '🔥', title: 'Chegada · Fogueira creativa', desc: 'Primeiro contacto en Anceu. A noite: fogueira, presentacións, música e as primeiras conversas arredor do lume.' },
+              { day: '1 out (xoves)', emoji: '🎤', title: 'Pegadas do Recordo · Camiños de Arte', desc: 'Memoria viva coa xente da aldea, gravacións con FemTech, percorrido polas intervencións artísticas de Anceu e recitais baseados na memoria local.' },
+              { day: '2 out (venres)', emoji: '🚐', title: 'Visita ao territorio', desc: 'Saída a Muimenta Viva (coliving público), Termas de Prexigueiro e Casa Colectiva de Carballeda de Avia. Parada para unha cata de viños da zona de Ourense (ou dunha adega próxima da comarca).' },
+              { day: '3 out (sábado)', emoji: '🎵', title: 'Paseo creativo · Transmisión de saberes · Concierto', desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.' },
+              { day: '4 out (domingo)', emoji: '🍄', title: 'Espazo de Tía Nie · Gastronomía e vermú', desc: 'Cogomelos no monte con guía, taller de cociña colectiva e vermú creativo con música — celebración do tempo compartido.' },
+              { day: '5 out (luns)', emoji: '🌿', title: 'Peche · Compromisos de rede · Saída', desc: 'Mañá de peche: aprendizaxes, oportunidades de colaboración e compromisos para seguir en contacto. Despedida e volta.' },
             ].map((item) => (
               <div
                 key={item.day}

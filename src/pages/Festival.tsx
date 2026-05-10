@@ -167,28 +167,32 @@ export default function Festival() {
             Organiza
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 lg:gap-24">
-            <div className="flex flex-col items-center text-center max-w-xs">
+            <a
+              href="https://devellabella.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center max-w-xs hover:opacity-95 transition"
+            >
               <img
                 src={devellaAbellaLogo}
-                alt="De Vella a Bella Fest"
-                className="h-24 md:h-28 w-auto mb-3 drop-shadow-md max-w-[280px] object-contain"
+                alt="De Vella a Bella"
+                className="h-24 md:h-28 w-auto max-w-[280px] object-contain mix-blend-multiply"
               />
-              <span className="text-white font-semibold text-lg">De Vella a Bella Fest</span>
-              <span className="text-white/75 text-sm mt-1">Nova Lonxevidade Rural</span>
-            </div>
+            </a>
             <div className="hidden md:block w-px self-stretch min-h-[100px] bg-white/25" aria-hidden />
-            <div className="flex flex-col items-center text-center max-w-xs">
-              <a href="https://www.ruralhackers.com" target="_blank" rel="noopener noreferrer" className="inline-block mb-3">
-                <img
-                  src="/logo_rural_hackers.png"
-                  alt="Rural Hackers"
-                  className="h-24 md:h-28 w-auto hover:opacity-90 transition"
-                  style={{ filter: 'brightness(0) invert(1)' }}
-                />
-              </a>
-              <span className="text-white font-semibold text-lg">Rural Hackers</span>
-              <span className="text-white/75 text-sm mt-1">Anceu Coliving</span>
-            </div>
+            <a
+              href="https://www.ruralhackers.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center max-w-xs hover:opacity-90 transition"
+            >
+              <img
+                src="/logo_rural_hackers.png"
+                alt="Rural Hackers"
+                className="h-24 md:h-28 w-auto"
+                style={{ filter: 'brightness(0) invert(1)' }}
+              />
+            </a>
           </div>
         </div>
       </footer>

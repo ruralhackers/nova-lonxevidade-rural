@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Users } from 'lucide-react';
 
 export default function Festival() {
@@ -164,21 +163,41 @@ export default function Festival() {
         </div>
       </section>
 
-      {/* CTA final */}
-      <section className="py-16 px-6 lg:px-12" style={{ backgroundColor: '#FFF5EB' }}>
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-xl text-gray-800 mb-6">
-            Organizado por <a href="https://www.ruralhackers.com" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline" style={{ color: '#E67747' }}>Rural Hackers</a> · 12 persoas · Anceu Coliving
+      {/* Footer organizadores */}
+      <footer className="px-6 lg:px-12 pt-14 pb-12" style={{ backgroundColor: '#3D4A38' }}>
+        <div className="max-w-5xl mx-auto">
+          <p className="text-center text-white/90 text-sm font-semibold uppercase tracking-wider mb-10">
+            Organiza
           </p>
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition"
-            style={{ backgroundColor: '#6B8E5B' }}
-          >
-            Volver á portada
-          </Link>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 lg:gap-24">
+            <div className="flex flex-col items-center text-center max-w-xs">
+              <img
+                src="/nueva_longevidad_rural(2).png"
+                alt="De Vella a Bella Fest"
+                className="h-24 md:h-28 w-auto mb-3 drop-shadow-md"
+              />
+              <span className="text-white font-semibold text-lg">De Vella a Bella Fest</span>
+              <span className="text-white/75 text-sm mt-1">Nova Lonxevidade Rural</span>
+            </div>
+            <div className="hidden md:block w-px self-stretch min-h-[100px] bg-white/25" aria-hidden />
+            <div className="flex flex-col items-center text-center max-w-xs">
+              <a href="https://www.ruralhackers.com" target="_blank" rel="noopener noreferrer" className="inline-block mb-3">
+                <img
+                  src="/logo_rural_hackers.png"
+                  alt="Rural Hackers"
+                  className="h-24 md:h-28 w-auto hover:opacity-90 transition"
+                  style={{ filter: 'brightness(0) invert(1)' }}
+                />
+              </a>
+              <span className="text-white font-semibold text-lg">Rural Hackers</span>
+              <span className="text-white/75 text-sm mt-1">Anceu Coliving</span>
+            </div>
+          </div>
+          <p className="text-center text-white/85 mt-12 text-base">
+            12 persoas · Anceu Coliving · Ponte Caldelas · 30 set – 5 out 2026
+          </p>
         </div>
-      </section>
+      </footer>
     </div>
   );
 }

@@ -131,8 +131,8 @@ export default function Festival() {
                   day: '3 out (sábado)',
                   emoji: '🎵',
                   tema: 'Mente activa e saudable',
-                  title: 'Paseo creativo · Transmisión de saberes · Concierto',
-                  desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto de peche na Casa do Pobo: Caamaño e Ameixeiras, Coro Fornelés e pandereteiras.',
+                  title: 'Paseo creativo · Transmisión de saberes · Música sorpresa',
+                  desc: 'Paseo con Cartas Itinaya (Sara Donoso e Alba Santa), sesión de saberes entre xeracións e concierto e música sorpresa na Casa do Pobo.',
                 },
                 {
                   day: '4 out (domingo)',

@@ -138,7 +138,7 @@ export default function Festival() {
                   day: '4 out (domingo)',
                   emoji: '🍄',
                   tema: 'Nutrición consciente',
-                  title: 'Espazio Tía Ni · Gastronomía e vermú',
+                  title: 'Espazo Tía Ni · Gastronomía e vermú',
                   desc: 'Cogomelos no monte con guía, taller de cociña colectiva e espazo de vermú creativo arredor do teatro e da poesía — ligado a hábitos de alimentación conscientes e pracer compartido.',
                 },
                 {
